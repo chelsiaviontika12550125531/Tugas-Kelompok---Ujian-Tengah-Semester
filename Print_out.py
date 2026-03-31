@@ -61,5 +61,5 @@ if __name__ == "__main__":
     print(df_trans.to_string(index=False))
 
     print("\n" + "=" * 40)
-    print("TERIMA KASIH 🙏".center(40))
+    print("TERIMA KASIH ".center(40))
     print("=" * 40)

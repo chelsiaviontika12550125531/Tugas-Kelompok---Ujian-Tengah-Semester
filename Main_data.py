@@ -147,7 +147,6 @@ class Store:
             "Product"   : [new_product.name for new_product in self.products],
             "Category"  : [new_product.category for new_product in self.products],
             "Stock"     : [new_product.get_stock() for new_product in self.products],
-            "Stock"     : [new_product.get_stock() for new_product in self.products],
             "Price"     : [new_product.get_price() for new_product in self.products]
         }
         return pd.DataFrame(data)

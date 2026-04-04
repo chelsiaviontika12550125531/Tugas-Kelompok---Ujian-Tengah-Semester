@@ -151,6 +151,7 @@ class Store:
         }
         return pd.DataFrame(data)
 
+    
     def get_transaction_report_df(self):
         data = []
         for new_transac in self.transactions:
